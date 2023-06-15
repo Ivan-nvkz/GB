@@ -1,0 +1,1024 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+   <meta charset="UTF-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>GB</title>
+   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fancyapps/ui@4.0/dist/fancybox.css">
+   <link rel="stylesheet" href="css/swiper-bundle.min.css">
+   <link rel="stylesheet" href="css/nouislider.min.css">
+   <link rel="stylesheet" href="css/choices.min.css">
+   <link rel="stylesheet" href="css/splide.min.css">
+   <link rel="stylesheet" href="css/air-datepicker.css">
+   <link rel="stylesheet" href="css/style.min.css">
+</head>
+
+<body>
+
+
+   <div class="wrapper">
+
+      <div class="btn__up">&uarr;</div>
+
+      <header class="header">
+         <div class="header__inner">
+            <div class="header__top">
+               <div class="container">
+                  <div class="header__top-inner">
+                     <a class="logo" href="#">
+                        <img class="logo__img" src="images/header/logo.svg" alt="логотип">
+                     </a>
+                     <div class="header__navigation">
+                        <nav class="menu">
+                           <ul class="menu__list">
+                              <li class="menu__list-item">
+                                 <a class="menu__list-link" href="#">О нас</a>
+                              </li>
+                              <li class="menu__list-item">
+                                 <a class="menu__list-link" href="#">Услуги</a>
+                              </li>
+                              <li class="menu__list-item">
+                                 <a class="menu__list-link" href="#">Объекты</a>
+                              </li>
+                              <li class="menu__list-item">
+                                 <a class="menu__list-link" href="#">Партнерам</a>
+                              </li>
+                              <li class="menu__list-item">
+                                 <a class="menu__list-link" href="#">Отзывы</a>
+                              </li>
+                              <li class="menu__list-item">
+                                 <a class="menu__list-link" href="#">FAQ</a>
+                              </li>
+                              <li class="menu__list-item">
+                                 <a class="menu__list-link" href="#">Контакты</a>
+                              </li>
+                           </ul>
+                        </nav>
+                     </div>
+                     <div class="header__contacts">
+                        <ul class="header__contacts-list">
+                           <li class="header__contacts-item">
+                              <a class="header__contacts-link" href="tel:88000000000">
+                                 <svg class="header__contacts-img" width="25" height="24" viewBox="0 0 25 24"
+                                    fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <rect x="0.125977" width="24" height="24" fill="#111111" />
+                                    <path
+                                       d="M12.8769 16.5201L14.9969 14.4001L18.4769 16.8401L17.3569 17.9601C17.0769 18.2401 16.6769 18.3601 16.2769 18.2401C15.0369 17.8801 12.1969 16.8801 9.91689 14.5601C7.43688 12.1201 6.43688 9.08009 6.15688 8.00009C6.07688 7.72009 6.15688 7.48009 6.35688 7.28009L7.63688 6.00009L10.0769 9.48009L9.47689 10.0801"
+                                       stroke="white" stroke-width="1.71068" stroke-miterlimit="16"
+                                       stroke-linecap="square" />
+                                 </svg>
+                              </a>
+                           </li>
+                           <li class="header__contacts-item">
+                              <a class="header__contacts-link" href="#">
+                                 <svg class="header__contacts-img" width="24" height="24" viewBox="0 0 24 24"
+                                    fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <rect width="24" height="24" fill="#111111" />
+                                    <path
+                                       d="M16.6853 18.7999L10.251 13.8741L11.7537 12.1253L8.55762 13.4996L7.31987 12.9219L15.9905 8.92286L11.8733 13.709L15.9517 16.829L18.0652 6.97729L6.43763 11.4048L7.6915 11.9983L6.64769 12.6109L3.60022 11.2937L19.6002 5.19992L16.6853 18.7999Z"
+                                       fill="white" />
+                                 </svg>
+                              </a>
+                           </li>
+                           <li class="header__contacts-item">
+                              <a class="header__contacts-link" href="tel:88000000000">
+                                 <svg class="header__contacts-img" width="24" height="24" viewBox="0 0 24 24"
+                                    fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <rect width="24" height="24" fill="#111111" />
+                                    <path
+                                       d="M5 20C5.27332 19.0032 5.53721 18.0345 5.80346 17.0683C5.87651 16.8026 5.95426 16.5369 6.01788 16.2713C6.03437 16.2031 6.0273 16.1137 5.99432 16.0526C5.29217 14.776 4.96937 13.4101 5.08011 11.9642C5.26389 9.52616 6.39016 7.60772 8.41414 6.23707C9.76424 5.32487 11.2816 4.90168 12.9074 5.01923C15.8527 5.23083 18.0345 6.67671 19.2668 9.34278C20.4685 11.9454 20.1786 14.4962 18.5034 16.8332C17.2994 18.5094 15.6241 19.4898 13.5742 19.7955C11.9885 20.0306 10.4805 19.7602 9.05502 19.0314C8.98905 18.9985 8.89244 18.9914 8.82176 19.0102C7.6036 19.3229 6.39016 19.6403 5.17436 19.9577C5.12723 19.9718 5.0754 19.9812 5 20ZM6.78836 18.232C6.83548 18.2226 6.85433 18.2203 6.87318 18.2156C7.55883 18.0369 8.24449 17.8582 8.92779 17.6748C9.06916 17.6372 9.1799 17.6513 9.30714 17.7289C10.6832 18.5471 12.1652 18.8174 13.7321 18.4977C17.0449 17.8206 19.1726 14.6937 18.6047 11.3717C18.124 8.55048 15.6807 6.38988 12.8226 6.26998C11.2439 6.19945 9.82314 6.65085 8.60028 7.65474C7.20305 8.80204 6.442 10.2949 6.3289 12.0958C6.24879 13.4242 6.58337 14.6561 7.30201 15.7775C7.38448 15.9069 7.40097 16.0174 7.35856 16.1678C7.16535 16.8449 6.98157 17.5291 6.78836 18.232Z"
+                                       fill="white" />
+                                    <path
+                                       d="M10.087 9.01604C10.4263 8.92905 10.5794 9.13359 10.6925 9.42982C10.8598 9.86241 11.0412 10.2856 11.225 10.7111C11.2863 10.8545 11.2839 10.9838 11.192 11.1085C11.0436 11.3083 10.8975 11.5128 10.7396 11.7056C10.6407 11.8279 10.6242 11.936 10.7066 12.0747C11.3145 13.0998 12.1675 13.8404 13.2796 14.2823C13.4233 14.3388 13.5435 14.3176 13.6425 14.1954C13.831 13.9603 14.0289 13.7299 14.2103 13.49C14.3163 13.349 14.4389 13.3067 14.5897 13.3772C15.1175 13.6241 15.6452 13.8733 16.166 14.1342C16.2296 14.1671 16.2838 14.2847 16.2838 14.3623C16.2696 15.1499 16.0387 15.5307 15.1881 15.8857C14.7075 16.0856 14.2103 16.0362 13.7155 15.8999C11.9248 15.4014 10.6077 14.28 9.54975 12.8012C9.21752 12.3357 8.91829 11.8561 8.79105 11.2918C8.61198 10.4878 8.8099 9.78953 9.40602 9.20882C9.59216 9.02309 9.81836 8.97842 10.087 9.01604Z"
+                                       fill="white" />
+                                 </svg>
+                              </a>
+                           </li>
+                        </ul>
+                     </div>
+                     <button type="button" class="icon-menu"><span></span></button>
+                  </div>
+               </div>
+            </div>
+            <div class="header__content">
+               <div class="container">
+                  <div class="header__content-inner">
+                     <div class="header__content-body">
+                        <div class="header__title-block">
+                           <div class="header__title-pictures">
+                              <img class="header__title-img" src="images/header/header-title-logo.svg" alt="">
+                           </div>
+                           <h3 class="header__title">
+                              «Качественный сервис для тех, кто ценит свое время и готов довериться экспертам рынка
+                              недвижимости.»
+                           </h3>
+                        </div>
+                        <div class="header__content-description">
+                           Получите индивидуальную подборку
+                           из более чем 50 новостроек Москвы
+                        </div>
+                        <a class="test__btn" href="#">
+                           Пройти тест
+                        </a>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </header>
+
+      <main class="main">
+
+         <section class="brokers section-indent">
+            <div class="container">
+               <h3 class="section__title brokers__title">
+                  GENESIS BROKERS
+               </h3>
+               <div class="brokers__inner">
+                  <div class="brokers__info-block">
+                     <div class="brokers__info-body">
+                        <p class="brokers__info-text">
+                           Ваш «личный агент» или тот самый «персональный брокер» в лице целой компании – команды
+                           профессионалов по работе с недвижимостью, готовых оперативно решать для Вас разные задачи.
+                        </p>
+                        <p class="brokers__info-text">
+                           Подберем под Ваш запрос самое оптимальное предложение среди лучших объектов в жилых
+                           комплексах
+                           Москвы.
+                        </p>
+                     </div>
+                     <a class="brokers__btn" href="#" data-da=".brokers__inner,1024,last">
+                        Получить предложение
+                     </a>
+                  </div>
+                  <div class="brokers__icons-block">
+                     <ul class="brokers__icons-items">
+                        <li class="brokers__icons-item">
+                           <div class="brokers__icons-body">
+                              <div class="brokers__picture">
+                                 <img class="brokers__img" src="images/icons/brokers-icon-01.svg" alt="">
+                              </div>
+                              <p class="brokers__info">
+                                 Закрытые и <br> эксклюзивные лоты
+                              </p>
+                           </div>
+                        </li>
+                        <li class="brokers__icons-item">
+                           <div class="brokers__icons-body">
+                              <div class="brokers__picture">
+                                 <img class="brokers__img" src="images/icons/brokers-icon-02.svg" alt="">
+                              </div>
+                              <p class="brokers__info">
+                                 Лучшие условия <br> покупки
+                              </p>
+                           </div>
+                        </li>
+                        <li class="brokers__icons-item">
+                           <div class="brokers__icons-body">
+                              <div class="brokers__picture">
+                                 <img class="brokers__img" src="images/icons/brokers-icon-03.svg" alt="">
+                              </div>
+                              <p class="brokers__info">
+                                 Инвестиционные <br> лоты
+                              </p>
+                           </div>
+                        </li>
+                        <li class="brokers__icons-item">
+                           <div class="brokers__icons-body">
+                              <div class="brokers__picture">
+                                 <img class="brokers__img" src="images/icons/brokers-icon-04.svg" alt="">
+                              </div>
+                              <p class="brokers__info">
+                                 Качественный <br> сервисный подход
+                              </p>
+                           </div>
+                        </li>
+                        <li class="brokers__icons-item">
+                           <div class="brokers__icons-body">
+                              <div class="brokers__picture">
+                                 <img class="brokers__img" src="images/icons/brokers-icon-05.svg" alt="">
+                              </div>
+                              <p class="brokers__info">
+                                 Комплексное сопровождение сделки
+                              </p>
+                           </div>
+                        </li>
+                        <li class="brokers__icons-item">
+                           <div class="brokers__icons-body">
+                              <div class="brokers__picture">
+                                 <img class="brokers__img" src="images/icons/brokers-icon-06.svg" alt="">
+                              </div>
+                              <p class="brokers__info">
+                                 Бесплатно
+                              </p>
+                           </div>
+                        </li>
+
+                     </ul>
+                  </div>
+               </div>
+            </div>
+         </section>
+
+         <section class="benefits">
+            <div class="container">
+               <div class="benefits__inner">
+                  <h5 class="benefits__title">
+                     Вы безусловно будете довольны совместным сотрудничеством, <br> потому что «личный брокер»:
+                  </h5>
+                  <div class="benefits__content">
+                     <ul class="benefits__items">
+                        <li class="benefits__item">
+                           <div class="benefits__item-block">
+                              <div class="benefits-item__pictures">
+                                 <img class="benefits-item__images" src="images/icons/benefits-icon.svg" alt="">
+                              </div>
+                              <div class="benefits-item__body">
+                                 <div class="benefits-item__text">
+                                    Оценит надёжность застройщика, параметры <br> и характеристики объекта
+                                 </div>
+                              </div>
+                           </div>
+                        </li>
+                        <li class="benefits__item">
+                           <div class="benefits__item-block">
+                              <div class="benefits-item__pictures">
+                                 <img class="benefits-item__images" src="images/icons/benefits-icon.svg" alt="">
+                              </div>
+                              <div class="benefits-item__body">
+                                 <div class="benefits-item__text">
+                                    Обеспечит лучшие условия приобретения
+                                 </div>
+                              </div>
+                           </div>
+                        </li>
+                        <li class="benefits__item">
+                           <div class="benefits__item-block">
+                              <div class="benefits-item__pictures">
+                                 <img class="benefits-item__images" src="images/icons/benefits-icon.svg" alt="">
+                              </div>
+                              <div class="benefits-item__body">
+                                 <div class="benefits-item__text">
+                                    Имеет экспертность <br> в выборе правильных планировочных решений
+                                 </div>
+                              </div>
+                           </div>
+                        </li>
+                        <li class="benefits__item">
+                           <div class="benefits__item-block">
+                              <div class="benefits-item__pictures">
+                                 <img class="benefits-item__images" src="images/icons/benefits-icon.svg" alt="">
+                              </div>
+                              <div class="benefits-item__body">
+                                 <div class="benefits-item__text">
+                                    Поможет инвестировать <br> в недвижимость и профессионально рассчитать доходность на
+                                    вложенные средства
+                                 </div>
+                              </div>
+                           </div>
+                        </li>
+                        <li class="benefits__item">
+                           <div class="benefits__item-block">
+                              <div class="benefits-item__pictures">
+                                 <img class="benefits-item__images" src="images/icons/benefits-icon.svg" alt="">
+                              </div>
+                              <div class="benefits-item__body">
+                                 <div class="benefits-item__text">
+                                    Всегда на стороне клиента, владеет объективной информацией по рынку
+                                 </div>
+                              </div>
+                           </div>
+                        </li>
+                        <li class="benefits__item">
+                           <div class="benefits__item-block">
+                              <div class="benefits-item__pictures">
+                                 <img class="benefits-item__images" src="images/icons/benefits-icon.svg" alt="">
+                              </div>
+                              <div class="benefits-item__body">
+                                 <div class="benefits-item__text">
+                                    Всегда на связи 24/7
+                                 </div>
+                              </div>
+                           </div>
+                        </li>
+                        <li class="benefits__item">
+                           <div class="benefits__item-block">
+                              <div class="benefits-item__pictures">
+                                 <img class="benefits-item__images" src="images/icons/benefits-icon.svg" alt="">
+                              </div>
+                              <div class="benefits-item__body">
+                                 <div class="benefits-item__text">
+                                    Даст оценку будущему функциональному решению квартиры
+                                 </div>
+                              </div>
+                           </div>
+                        </li>
+                        <li class="benefits__item">
+                           <div class="benefits__item-block">
+                              <div class="benefits-item__pictures">
+                                 <img class="benefits-item__images" src="images/icons/benefits-icon.svg" alt="">
+                              </div>
+                              <div class="benefits-item__body">
+                                 <div class="benefits-item__text">
+                                    Не берет деньги за свои услуги
+                                 </div>
+                              </div>
+                           </div>
+                        </li>
+                     </ul>
+                  </div>
+               </div>
+            </div>
+            <div class="benefits__picture">
+               <img class="benefits-img" src="images/main/benefits-img.jpg" alt="">
+            </div>
+         </section>
+
+         <section class="work">
+            <div class="container">
+               <div class="work__inner">
+                  <div class="work__body">
+                     <h5 class="work__title">
+                        Вам будет полезно работать с нашей командой, если:
+                     </h5>
+                     <ul class="work__items">
+                        <li class="work__item">
+                           <p class="work__text">
+                              Для покупки «квартиры мечты» нужно сначала продать свою недвижимость
+                           </p>
+                        </li>
+                        <li class="work__item">
+                           <p class="work__text">
+                              Есть сомнения в выборе лучшего времени для покупки
+                           </p>
+                        </li>
+                        <li class="work__item">
+                           <p class="work__text">
+                              Нужно независимое экспертное мнение по застройщикам Московского региона и рискам недостроя
+                           </p>
+                        </li>
+                        <li class="work__item">
+                           <p class="work__text">
+                              Нет времени разбираться в сотнях предложений от застройщиков
+                           </p>
+                        </li>
+                        <li class="work__item">
+                           <p class="work__text">
+                              Не хотите разбираться с документами девелоперов и нести риски
+                           </p>
+                        </li>
+                     </ul>
+                  </div>
+               </div>
+            </div>
+         </section>
+
+         <section class="application">
+            <div class="container">
+               <div class="application__inner">
+                  <h5 class="section__title application__title">
+                     оставьте заявку
+                  </h5>
+                  <div class="application__form-block">
+                     <form class="application__form" action="#">
+                        <div class="application__form-item">
+                           <input type="text" name="name" class="application__form-input" placeholder="Имя"
+                              autocomplete="off" required>
+                        </div>
+                        <div class="application__form-item">
+                           <input type="tel" name="phone" class="application__form-input" placeholder="Телефон"
+                              autocomplete="off" required>
+                        </div>
+                        <div class="application__form-item">
+                           <button class="application__form-btn" type="submit">
+                              Отправить
+                           </button>
+                        </div>
+                     </form>
+                  </div>
+               </div>
+            </div>
+         </section>
+
+         <section class="services">
+            <div class="container">
+               <div class="services__title-block">
+                  <h5 class="section__title services__title">
+                     УСЛУГИ
+                  </h5>
+                  <div class="services__sub-title">
+                     Оказываем комплекс услуг по сопровождению сделки на всех ее этапах
+                  </div>
+               </div>
+            </div>
+            <div class="services__inner">
+               <div class="swiper services-slider">
+                  <div class="swiper-wrapper services__items">
+                     <div class="swiper-slide services__item">
+                        <div class="services__item-block">
+                           <div class="services-item-block__body">
+                              <span class="services__num">1</span>
+                              <div class="services-item-block__title">подбор объекта</div>
+                              <div class="services-item-block__text">
+                                 Изучаем Ваш запрос и необходимые параметры, подбираем оптимальные варианты на выбор.
+                                 Показываем сильные и слабые стороны каждого объекта.
+                              </div>
+                           </div>
+                        </div>
+                     </div>
+                     <div class="swiper-slide services__item">
+                        <div class="services__item-block">
+                           <div class="services-item-block__body">
+                              <span class="services__num">2</span>
+                              <div class="services-item-block__title">получение лучших условий покупки</div>
+                              <div class="services-item-block__text">
+                                 Фиксируем и согласовываем с застройщиком лучшую цену на объекты недвижимости.
+                                 Согласовываем дополнительные скидки. Рассчитываем лучший способ покупки (полная
+                                 оплата,
+                                 рассрочка, ипотечный кредит).
+                              </div>
+                           </div>
+                        </div>
+                     </div>
+                     <div class="swiper-slide services__item">
+                        <div class="services__item-block">
+                           <div class="services-item-block__body">
+                              <span class="services__num">3</span>
+                              <div class="services-item-block__title">сопровождение на объект</div>
+                              <div class="services-item-block__text">
+                                 Сопровождаем на объект, в офис продаж застройщика.
+                              </div>
+                           </div>
+                        </div>
+                     </div>
+                     <div class="swiper-slide services__item">
+                        <div class="services__item-block">
+                           <div class="services-item-block__body">
+                              <span class="services__num">4</span>
+                              <div class="services-item-block__title">юридическая экспертиза сделки</div>
+                              <div class="services-item-block__text">
+                                 Проверяем документы, заботимся о безопасности сделки и отсутствии спорных моментов.
+                                 Отстаиваем права и интересы клиента.
+                              </div>
+                           </div>
+                        </div>
+                     </div>
+                     <div class="swiper-slide services__item">
+                        <div class="services__item-block">
+                           <div class="services-item-block__body">
+                              <span class="services__num">5</span>
+                              <div class="services-item-block__title">ипотечный брокеридж</div>
+                              <div class="services-item-block__text">
+                                 Наши ипотечные брокеры рекомендуют самые выгодные предложения банков.Отправляем
+                                 заявки и получаем одобрение ипотеки, экономя ваше время и средства.
+                              </div>
+                           </div>
+                        </div>
+                     </div>
+                     <div class="swiper-slide services__item">
+                        <div class="services__item-block">
+                           <div class="services-item-block__body">
+                              <span class="services__num">6</span>
+                              <div class="services-item-block__title">trade-in недвижимости</div>
+                              <div class="services-item-block__text">
+                                 Самостоятельно занимаемся продажей Вашей недвижимости и вкладываем полученные
+                                 средства в покупку нового объекта.
+                              </div>
+                           </div>
+                        </div>
+                     </div>
+                     <div class="swiper-slide services__item">
+                        <div class="services__item-block">
+                           <div class="services-item-block__body">
+                              <span class="services__num">7</span>
+                              <div class="services-item-block__title">
+                                 приемка объекта у застройщика
+                                 с профессиональным экспертом
+                              </div>
+                              <div class="services-item-block__text">
+                                 Следим за соблюдением строительных и эксплуатационных норм и обязательств по
+                                 договору с застройщиком.
+                              </div>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+            </div>
+            <div class="container">
+               <p class="services__description">
+                  Наши услуги полностью бесплатны!
+               </p>
+            </div>
+         </section>
+
+         <section class="additional-services">
+            <div class="additional-services__image">
+               <img class="additional-services__img" src="images/main/additional-services-bg.jpg" alt="">
+            </div>
+            <div class="additional-services__content">
+               <div class="container">
+                  <div class="additional-services__body">
+                     <h5 class="section__title additional-services__title">
+                        Дополнительные услуги
+                     </h5>
+                     <div class="additional-services__items">
+                        <div class="additional-services__item">
+                           <div class="services__item-block">
+                              <div class="services-item-block__body">
+                                 <span class="services__num">1</span>
+                                 <div class="services-item-block__title">
+                                    оформление
+                                    собственности
+                                 </div>
+                                 <div class="services-item-block__text">
+                                    Занимаемся сбором и подачей пакета документов по объекту недвижимости для
+                                    регистрации права собственности.
+                                 </div>
+                              </div>
+                           </div>
+                        </div>
+                        <div class="additional-services__item">
+                           <div class="services__item-block">
+                              <div class="services-item-block__body">
+                                 <span class="services__num">2</span>
+                                 <div class="services-item-block__title">
+                                    отделка и комплектация объекта недвижимости
+                                 </div>
+                                 <div class="services-item-block__text">
+                                    Разработаем индивидуальный <br> дизайн-проект. <br>
+                                    Проведем отделку и комплектацию объекта недвижимости «под ключ»*
+                                 </div>
+                                 <div class="services-item-block__text additional-services__text--color">
+                                    *Услугу по отделке и комплектации объектов недвижимости оказывает Студия дизайна
+                                    и
+                                    ремонта «Эстетика».
+                                 </div>
+                              </div>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </section>
+
+         <section class="partners">
+            <div class="container">
+               <h5 class="section__title  partners__title">
+                  партнеры и объекты
+               </h5>
+               <div class="partners__inner">
+                  <div class="partners__block">
+                     <ul class="partners__items">
+                        <li class="partners__item">
+                           <img class="partners__img" src="images/main/partners-logo-01.svg" alt="">
+                        </li>
+                        <li class="partners__item">
+                           <img class="partners__img" src="images/main/partners-logo-02.svg" alt="">
+                        </li>
+                        <li class="partners__item">
+                           <img class="partners__img" src="images/main/partners-logo-03.svg" alt="">
+                        </li>
+                        <li class="partners__item">
+                           <img class="partners__img" src="images/main/partners-logo-04.svg" alt="">
+                        </li>
+                        <li class="partners__item">
+                           <img class="partners__img" src="images/main/partners-logo-05.svg" alt="">
+                        </li>
+                     </ul>
+                  </div>
+                  <div class="objects__block">
+                     <ul class="objects__items">
+                        <li class="objects__item">
+                           <a class="objects__btn" href="#">
+                              Подробнее
+                              <svg class="objects__btn-img" width="30" height="30" viewBox="0 0 30 30" fill="none"
+                                 xmlns="http://www.w3.org/2000/svg">
+                                 <path d="M6 0H0V2H6V0Z" fill="white" />
+                                 <path d="M30 0H11V2H30V0Z" fill="white" />
+                                 <path d="M30 0H28V30H30V0Z" fill="white" />
+                                 <path
+                                    d="M28.5834 0.0125057L0.0166016 28.5793L1.4308 29.9935L29.9976 1.42671L28.5834 0.0125057Z"
+                                    fill="white" />
+                              </svg>
+                           </a>
+                           <a class="objects__body" href="#">
+                              <div class="objects__picture">
+                                 <img class="objects__img" src="images/main/objects-img-01.jpg" alt="">
+                              </div>
+                           </a>
+                           <a class="objects__name" href="#">
+                              1-ый Нагатинский
+                           </a>
+                        </li>
+                        <li class="objects__item">
+                           <a class="objects__btn" href="#">
+                              Подробнее
+                              <svg class="objects__btn-img" width="30" height="30" viewBox="0 0 30 30" fill="none"
+                                 xmlns="http://www.w3.org/2000/svg">
+                                 <path d="M6 0H0V2H6V0Z" fill="white" />
+                                 <path d="M30 0H11V2H30V0Z" fill="white" />
+                                 <path d="M30 0H28V30H30V0Z" fill="white" />
+                                 <path
+                                    d="M28.5834 0.0125057L0.0166016 28.5793L1.4308 29.9935L29.9976 1.42671L28.5834 0.0125057Z"
+                                    fill="white" />
+                              </svg>
+                           </a>
+                           <a class="objects__body" href="#">
+                              <div class="objects__picture">
+                                 <img class="objects__img" src="images/main/objects-img-02.jpg" alt="">
+                              </div>
+                           </a>
+                           <a class="objects__name" href="#">
+                              primavera
+                           </a>
+                        </li>
+                        <li class="objects__item">
+                           <a class="objects__btn" href="#">
+                              Подробнее
+                              <svg class="objects__btn-img" width="30" height="30" viewBox="0 0 30 30" fill="none"
+                                 xmlns="http://www.w3.org/2000/svg">
+                                 <path d="M6 0H0V2H6V0Z" fill="white" />
+                                 <path d="M30 0H11V2H30V0Z" fill="white" />
+                                 <path d="M30 0H28V30H30V0Z" fill="white" />
+                                 <path
+                                    d="M28.5834 0.0125057L0.0166016 28.5793L1.4308 29.9935L29.9976 1.42671L28.5834 0.0125057Z"
+                                    fill="white" />
+                              </svg>
+                           </a>
+                           <a class="objects__body" href="#">
+                              <div class="objects__picture">
+                                 <img class="objects__img" src="images/main/objects-img-03.jpg" alt="">
+                              </div>
+                           </a>
+                           <a class="objects__name" href="#">
+                              Новоданиловская 8
+                           </a>
+                        </li>
+                        <li class="objects__item">
+                           <a class="objects__btn" href="#">
+                              Подробнее
+                              <svg class="objects__btn-img" width="30" height="30" viewBox="0 0 30 30" fill="none"
+                                 xmlns="http://www.w3.org/2000/svg">
+                                 <path d="M6 0H0V2H6V0Z" fill="white" />
+                                 <path d="M30 0H11V2H30V0Z" fill="white" />
+                                 <path d="M30 0H28V30H30V0Z" fill="white" />
+                                 <path
+                                    d="M28.5834 0.0125057L0.0166016 28.5793L1.4308 29.9935L29.9976 1.42671L28.5834 0.0125057Z"
+                                    fill="white" />
+                              </svg>
+                           </a>
+                           <a class="objects__body" href="#">
+                              <div class="objects__picture">
+                                 <img class="objects__img" src="images/main/objects-img-04.jpg" alt="">
+                              </div>
+                           </a>
+                           <a class="objects__name" href="#">
+                              Upside Towers
+                           </a>
+                        </li>
+                        <li class="objects__item">
+                           <a class="objects__btn" href="#">
+                              Подробнее
+                              <svg class="objects__btn-img" width="30" height="30" viewBox="0 0 30 30" fill="none"
+                                 xmlns="http://www.w3.org/2000/svg">
+                                 <path d="M6 0H0V2H6V0Z" fill="white" />
+                                 <path d="M30 0H11V2H30V0Z" fill="white" />
+                                 <path d="M30 0H28V30H30V0Z" fill="white" />
+                                 <path
+                                    d="M28.5834 0.0125057L0.0166016 28.5793L1.4308 29.9935L29.9976 1.42671L28.5834 0.0125057Z"
+                                    fill="white" />
+                              </svg>
+                           </a>
+                           <a class="objects__body" href="#">
+                              <div class="objects__picture">
+                                 <img class="objects__img" src="images/main/objects-img-05.jpg" alt="">
+                              </div>
+                           </a>
+                           <a class="objects__name" href="#">
+                              Moments
+                           </a>
+                        </li>
+                        <li class="objects__item">
+                           <a class="objects__btn" href="#">
+                              Подробнее
+                              <svg class="objects__btn-img" width="30" height="30" viewBox="0 0 30 30" fill="none"
+                                 xmlns="http://www.w3.org/2000/svg">
+                                 <path d="M6 0H0V2H6V0Z" fill="white" />
+                                 <path d="M30 0H11V2H30V0Z" fill="white" />
+                                 <path d="M30 0H28V30H30V0Z" fill="white" />
+                                 <path
+                                    d="M28.5834 0.0125057L0.0166016 28.5793L1.4308 29.9935L29.9976 1.42671L28.5834 0.0125057Z"
+                                    fill="white" />
+                              </svg>
+                           </a>
+                           <a class="objects__body" href="#">
+                              <div class="objects__picture">
+                                 <img class="objects__img" src="images/main/objects-img-06.jpg" alt="">
+                              </div>
+                           </a>
+                           <a class="objects__name" href="#">
+                              Full house
+                           </a>
+                        </li>
+                        <li class="objects__item">
+                           <a class="objects__btn" href="#">
+                              Подробнее
+                              <svg class="objects__btn-img" width="30" height="30" viewBox="0 0 30 30" fill="none"
+                                 xmlns="http://www.w3.org/2000/svg">
+                                 <path d="M6 0H0V2H6V0Z" fill="white" />
+                                 <path d="M30 0H11V2H30V0Z" fill="white" />
+                                 <path d="M30 0H28V30H30V0Z" fill="white" />
+                                 <path
+                                    d="M28.5834 0.0125057L0.0166016 28.5793L1.4308 29.9935L29.9976 1.42671L28.5834 0.0125057Z"
+                                    fill="white" />
+                              </svg>
+                           </a>
+                           <a class="objects__body" href="#">
+                              <div class="objects__picture">
+                                 <img class="objects__img" src="images/main/objects-img-07.jpg" alt="">
+                              </div>
+                           </a>
+                           <a class="objects__name" href="#">
+                              Champine
+                           </a>
+                        </li>
+                        <li class="objects__item">
+                           <a class="objects__btn" href="#">
+                              Подробнее
+                              <svg class="objects__btn-img" width="30" height="30" viewBox="0 0 30 30" fill="none"
+                                 xmlns="http://www.w3.org/2000/svg">
+                                 <path d="M6 0H0V2H6V0Z" fill="white" />
+                                 <path d="M30 0H11V2H30V0Z" fill="white" />
+                                 <path d="M30 0H28V30H30V0Z" fill="white" />
+                                 <path
+                                    d="M28.5834 0.0125057L0.0166016 28.5793L1.4308 29.9935L29.9976 1.42671L28.5834 0.0125057Z"
+                                    fill="white" />
+                              </svg>
+                           </a>
+                           <a class="objects__body" href="#">
+                              <div class="objects__picture">
+                                 <img class="objects__img" src="images/main/objects-img-08.jpg" alt="">
+                              </div>
+                           </a>
+                           <a class="objects__name" href="#">
+                              Pride
+                           </a>
+                        </li>
+                     </ul>
+                     <a class="more-options__btn" href="#">
+                        Ещё варианты
+                     </a>
+                  </div>
+               </div>
+            </div>
+         </section>
+
+         <section class="company-info">
+            <div class="container">
+               <div class="company-info__inner">
+                  <div class="company-info__content">
+                     <div class="company-info__text-block">
+                        <div class="company-info__logo">
+                           <img class="company-info__logo-img" src="images/main/company-info-logo.svg" alt="">
+                        </div>
+                        <div class="company-info__text">
+                           Входит в группу компаний GENESIS <sup>AM</sup>
+                        </div>
+                        <a class="company-info__btn" href="#" data-da=".company-info__inner,767,last">
+                           <div class="company-info__btn-wrapper">
+                              GENESIS <sup><small>AM</small></sup>
+                           </div>
+                           <svg class="company-info__img" width="30" height="30" viewBox="0 0 30 30" fill="none"
+                              xmlns="http://www.w3.org/2000/svg">
+                              <path d="M6 0H0V2H6V0Z" fill="#111111" />
+                              <path d="M30 0H11V2H30V0Z" fill="#111111" />
+                              <path d="M30 0H28V30H30V0Z" fill="#111111" />
+                              <path
+                                 d="M28.5834 0.0122615L0.0166016 28.5791L1.4308 29.9933L29.9976 1.42646L28.5834 0.0122615Z"
+                                 fill="#111111" />
+                           </svg>
+                        </a>
+                     </div>
+                     <div class="company-info__num-block">
+                        <div class="company-info__items">
+                           <div class="company-info__item">
+                              <div class="company-info__item-body">
+                                 <div class="company-info__item-title">
+                                    <span class="company-info__item-num">
+                                       10
+                                    </span>
+                                    лет
+                                    <svg class="company-info__item-plus-img" width="28" height="28" viewBox="0 0 28 28"
+                                       fill="none" xmlns="http://www.w3.org/2000/svg">
+                                       <path d="M15.5684 0H12.4312V28H15.5684V0Z" fill="white" />
+                                       <path d="M28 12.4312H0V15.5684H28V12.4312Z" fill="white" />
+                                    </svg>
+                                 </div>
+                                 <div class="company-info__item-text">
+                                    оказываем услуги полного цикла в сфере недвижимого имущества
+                                 </div>
+                              </div>
+                           </div>
+                           <div class="company-info__item">
+                              <div class="company-info__item-body">
+                                 <div class="company-info__item-title">
+                                    <span class="company-info__item-num">
+                                       3000
+                                    </span>
+
+                                    <svg class="company-info__item-plus-img" width="28" height="28" viewBox="0 0 28 28"
+                                       fill="none" xmlns="http://www.w3.org/2000/svg">
+                                       <path d="M15.5684 0H12.4312V28H15.5684V0Z" fill="white" />
+                                       <path d="M28 12.4312H0V15.5684H28V12.4312Z" fill="white" />
+                                    </svg>
+                                 </div>
+                                 <div class="company-info__item-text">
+                                    довольных клиентов
+                                 </div>
+                              </div>
+                           </div>
+                           <div class="company-info__item">
+                              <div class="company-info__item-body">
+                                 <div class="company-info__item-title">
+                                    <span class="company-info__item-num">
+                                       100
+                                    </span>
+                                    <svg class="company-info__item-plus-img" width="28" height="28" viewBox="0 0 28 28"
+                                       fill="none" xmlns="http://www.w3.org/2000/svg">
+                                       <path d="M15.5684 0H12.4312V28H15.5684V0Z" fill="white" />
+                                       <path d="M28 12.4312H0V15.5684H28V12.4312Z" fill="white" />
+                                    </svg>
+                                 </div>
+                                 <div class="company-info__item-text">
+                                    объектов недвижимости <br> в активной работе
+                                 </div>
+                              </div>
+                           </div>
+                           <div class="company-info__item">
+                              <div class="company-info__item-body">
+                                 <div class="company-info__item-title">
+                                    <span class="company-info__item-num">
+                                       30
+                                    </span>
+                                    <svg class="company-info__item-plus-img" width="28" height="28" viewBox="0 0 28 28"
+                                       fill="none" xmlns="http://www.w3.org/2000/svg">
+                                       <path d="M15.5684 0H12.4312V28H15.5684V0Z" fill="white" />
+                                       <path d="M28 12.4312H0V15.5684H28V12.4312Z" fill="white" />
+                                    </svg>
+                                 </div>
+                                 <div class="company-info__item-text">
+                                    партнеров-девелоперов
+                                 </div>
+                              </div>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+                  <div class="company-info__pictures">
+                     <div class="company-info__pictures-items">
+                        <div class="company-info__pictures-item">
+                           <div class="pictures-item__body">
+                              <div class="company-info__picture">
+                                 <img class="company-info__picture-img" src="images/main/company-info-picture-01.jpg"
+                                    alt="">
+                              </div>
+                              <h5 class="company-info__picture-title">
+                                 Команда экспертов рынка недвижимости
+                              </h5>
+                           </div>
+                        </div>
+                        <div class="company-info__pictures-item">
+                           <div class="pictures-item__body">
+                              <div class="company-info__picture">
+                                 <img class="company-info__picture-img" src="images/main/company-info-picture-02.jpg"
+                                    alt="">
+                              </div>
+                              <h5 class="company-info__picture-title">
+                                 Проводим сделки каждый день
+                              </h5>
+                           </div>
+                        </div>
+                        <div class="company-info__pictures-item">
+                           <div class="pictures-item__body">
+                              <div class="company-info__picture">
+                                 <img class="company-info__picture-img" src="images/main/company-info-picture-03.jpg"
+                                    alt="">
+                              </div>
+                              <h5 class="company-info__picture-title">
+                                 Находим лучшие объекты <br> под финансовую задачу
+                              </h5>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </section>
+
+
+
+         <section class="offer application">
+            <div class="container">
+               <div class="application__inner">
+                  <div class="offer__title-box">
+                     <h5 class="section__title application__title offer__title">
+                        Хотите стать нашим партнером?
+                     </h5>
+                     <p class="offer__description">
+                        Мы открыты для сотрудничества. Напишите нам!
+                     </p>
+                  </div>
+                  <div class="application__form-block">
+                     <form class="application__form" action="#">
+                        <div class="application__form-item">
+                           <input type="text" name="name-offer" class="application__form-input" placeholder="Имя"
+                              autocomplete="off" required>
+                        </div>
+                        <div class="application__form-item">
+                           <input type="tel" name="phone-offer" class="application__form-input" placeholder="Телефон"
+                              autocomplete="off" required>
+                        </div>
+                        <div class="application__form-item">
+                           <textarea class="application__form-textarea" name="message-offer"
+                              placeholder="Сообщение"></textarea>
+                        </div>
+                        <div class="application__form-item">
+
+                           <div class="application__form-buttons">
+
+                              <div class="calculation-data__item">
+                                 <div class="calculation-data__input">
+                                    <div class="field__wrapper">
+                                       <input type="file" name="file" id="field__file" class="field field__file"
+                                          multiple>
+                                       <label class="field__file-wrapper" for="field__file">
+                                          <span class="field__file-fake"></span>
+                                          <span class="field__file-button">
+                                             <img class="file-button__img" src="images/icons/calculation-icon.svg"
+                                                alt="">
+                                             Прикрепить файл
+                                          </span>
+                                       </label>
+                                    </div>
+                                 </div>
+                              </div>
+
+                              <button class="application__form-btn offer__form-btn" type="submit">
+                                 Отправить
+                              </button>
+                           </div>
+
+
+                        </div>
+                     </form>
+                  </div>
+               </div>
+            </div>
+         </section>
+
+
+
+
+
+      </main>
+
+      <footer class="footer">
+         <div class="container">
+            <div class="footer__inner">
+
+
+
+            </div>
+         </div>
+      </footer>
+
+   </div>
+
+
+
+
+
+
+
+
+
+
+
+   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+   <script src="https://cdn.jsdelivr.net/npm/@fancyapps/ui@4.0/dist/fancybox.umd.js"></script>
+   <script src="https://api-maps.yandex.ru/2.1/?apikey=вашAPI-ключ&lang=ru_RU"></script>
+   <script src="js/swiper-bundle.min.js"></script>
+   <script src="js/inputmask.min.js"></script>
+   <script src="js/splide.min.js"></script>
+   <script src="js/splide-extension-auto-scroll.min.js"></script>
+   <script src="js/wNumb.min.js"></script>
+   <script src="js/choices.min.js"></script>
+   <script src="js/nouislider.min.js"></script>
+   <script src="js/main.min.js"></script>
+</body>
+
+</html>
